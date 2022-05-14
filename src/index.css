@@ -49,7 +49,13 @@ input , textarea , .editNotebtn-close, .note-btn , .card-text , .card-header , .
   border-radius: 0.3rem;
 }
 
-.Notes-header, .login-header, .signup-header {
+.Notes-header {
+  font-family: sans-serif;
+  background-color: #54668E;
+  color: #F5F6E6;
+}
+
+.login-header, .signup-header {
   font-family: sans-serif;
 }
 
