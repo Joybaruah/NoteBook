@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React from "react";
 import NoteSection from "../components/NoteSection"
 
 const Notes = () => {
