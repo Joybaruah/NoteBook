@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +13,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: #353956;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input , textarea , .editNotebtn-close, .note-btn , .card-text , .card-header , .modal-title , .editNotebtn {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.form-label {
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.card-title input:focus , .card-text textarea:focus {
+  font-weight: bold;
+  outline: none;
+}
+
+.HomeBtn {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 248, 248);
+}
+
+.HomeBtn:hover {
+  color: rgb(18, 18, 18);
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+}
+
+.Notes-header, .login-header, .signup-header {
+  font-family: sans-serif;
+}
+
+.Empty-Notes{
+  font-family: sans-serif;
+}
+
+i{
+  cursor: pointer;
+}
+
