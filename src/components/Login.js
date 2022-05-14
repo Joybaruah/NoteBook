@@ -70,7 +70,7 @@ const Login = (props) => {
           Login
         </button>
         <p className="my-3">
-              Dont have an Acccount? <Link to="/signuo">Create one</Link>
+              Dont have an Acccount? <Link to="/signup">Create one</Link>
         </p>
       </form>
     </div>
