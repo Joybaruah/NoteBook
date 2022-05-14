@@ -8,7 +8,7 @@ const Login = (props) => {
 
     const handleLogin = async (e , email, password)=>{
         e.preventDefault();
-        const response = await fetch("https://notebook-joy.herokuapp.com/api/auth/login", {
+        const response = await fetch("https://notebook-joy.herokuapp.com/login", {
             method : 'POST',
             headers: {
                 'Content-Type' : 'application/json'

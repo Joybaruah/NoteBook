@@ -13,7 +13,7 @@ const SignUp = (props) => {
   const handleLogin = async (e) => {
     const { name, email, password } = credentials;
     e.preventDefault();
-    const response = await fetch("https://notebook-joy.herokuapp.com/api/auth/createuser", {
+    const response = await fetch("https://notebook-joy.herokuapp.com/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
