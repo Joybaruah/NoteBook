@@ -41,13 +41,14 @@ const AddNote = () => {
               onChange={onChange}
             ></textarea>
           </p>
+          <p class="card-text"><small class="text-muted"></small></p>
           <button
             disabled={note.title.length < 3 || note.description.length < 5}
             href="/"
             className="note-btn btn btn-dark"
             onClick={handleNote}
           >
-            Add a note +
+            Add note +
           </button>
         </div>
       </div>

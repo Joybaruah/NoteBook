@@ -15,7 +15,7 @@ code {
 }
 
 .navbar {
-  background-color: #353956;
+  background-color: hsl(234, 45%, 31%);
 }
 
 .navbar-brand {
@@ -51,7 +51,7 @@ input , textarea , .editNotebtn-close, .note-btn , .card-text , .card-header , .
 
 .Notes-header {
   font-family: sans-serif;
-  background-color: #54668E;
+  background-color: hsl(239, 40%, 51%);
   color: #F5F6E6;
 }
 
