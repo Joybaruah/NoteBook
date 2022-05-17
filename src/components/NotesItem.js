@@ -18,7 +18,7 @@ const NotesItem = (props) => {
           <p className="card-text">
             {note.description}
           </p>
-          <p class="card-text"><small class="text-secondary">{new Date(note.date).toLocaleString(undefined, {timeZone: 'Asia/Kolkata'})}</small></p>
+          <p className="card-text"><small className="text-secondary">{new Date(note.date).toLocaleString(undefined, {timeZone: 'Asia/Kolkata'})}</small></p>
         </div>
       </div>
     </div>
